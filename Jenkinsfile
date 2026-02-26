@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('pre-prod'){
+        stage('prod'){
             steps{
                 echo 'dev'
             }
